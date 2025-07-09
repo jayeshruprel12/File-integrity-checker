@@ -28,3 +28,37 @@ A Python-based tool to monitor changes in files by calculating and comparing **S
 ### 1. **Create a baseline** of current files:
 ```bash
 python file_integrity_checker.py baseline <directory_path>
+
+### 2️⃣ Check for Changes
+
+Compare current files to the saved baseline:
+
+```bash
+python file_integrity_checker.py check <directory_path>
+
+## 📂 Example Usage
+
+```bash
+python file_integrity_checker.py baseline "C:\Users\vikas\Desktop"
+python file_integrity_checker.py check "C:\Users\vikas\Desktop"
+
+## 📁 Output
+
+Generates a `file_hashes.json` file storing SHA-256 hashes.
+
+Use this file for future comparisons during integrity checks.
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 👨‍💻 Author
+
+**Vikas Lalchand Mallah**  
+📧 Email: vikasmallah19@gmail.com  
+🏫 University: DY Patil International University
+s
