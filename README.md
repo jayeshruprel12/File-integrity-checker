@@ -67,6 +67,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 👨‍💻 Author
 
-**Vikas Lalchand Mallah**  
-📧 Email: vikasmallah19@gmail.com  
+- Author: Jayesh Dilip Ruprel  
+- Contact: jayeshruprel16@gmail.com  
 🏫 University: DY Patil International University
